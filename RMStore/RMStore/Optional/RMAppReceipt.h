@@ -46,7 +46,7 @@ __attribute__((availability(ios,introduced=7.0)))
 
 /** A SHA-1 hash, used to validate the receipt.
  */
-@property (nonatomic, strong, readonly) NSData *receiptHash;
+@property (nonatomic, strong, readonly) NSData *hash;
 
 /** Array of in-app purchases contained in the receipt.
  @see RMAppReceiptIAP
