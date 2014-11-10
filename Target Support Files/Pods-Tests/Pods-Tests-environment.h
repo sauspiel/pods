@@ -192,12 +192,6 @@
 #define COCOAPODS_VERSION_MINOR_SSKeychain 2
 #define COCOAPODS_VERSION_PATCH_SSKeychain 1
 
-// SSZipArchive
-#define COCOAPODS_POD_AVAILABLE_SSZipArchive
-#define COCOAPODS_VERSION_MAJOR_SSZipArchive 0
-#define COCOAPODS_VERSION_MINOR_SSZipArchive 3
-#define COCOAPODS_VERSION_PATCH_SSZipArchive 1
-
 // SocketRocket
 #define COCOAPODS_POD_AVAILABLE_SocketRocket
 #define COCOAPODS_VERSION_MAJOR_SocketRocket 0
