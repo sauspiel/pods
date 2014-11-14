@@ -21,21 +21,6 @@ PODS:
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - Appirater (0.0.4)
-  - BlocksKit (2.2.2):
-    - BlocksKit/All (= 2.2.2)
-  - BlocksKit/All (2.2.2):
-    - BlocksKit/Core
-    - BlocksKit/DynamicDelegate
-    - BlocksKit/MessageUI
-    - BlocksKit/UIKit
-  - BlocksKit/Core (2.2.2)
-  - BlocksKit/DynamicDelegate (2.2.2)
-  - BlocksKit/MessageUI (2.2.2):
-    - BlocksKit/Core
-    - BlocksKit/DynamicDelegate
-  - BlocksKit/UIKit (2.2.2):
-    - BlocksKit/Core
-    - BlocksKit/DynamicDelegate
   - CDEvents (1.2.1)
   - CocoaAsyncSocket (7.3.5)
   - CocoaHTTPServer (2.3):
@@ -83,7 +68,6 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 2.3.0)
   - Appirater (~> 0.0.2)
-  - BlocksKit
   - CDEvents
   - CocoaHTTPServer
   - CocoaLumberjack
@@ -100,7 +84,6 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: 6d7b76aa5d04c8c37daad3eef4b7e3f2a7620da3
   Appirater: f75e3cee30b744604507fc31cf108e02ca273965
-  BlocksKit: 49fda17cbd628f3d6683f62de57edeaa315b386c
   CDEvents: 6b78fcb665b8484d5b25e87ff626f11962e5b71c
   CocoaAsyncSocket: 45bdbbc1c0a5ed0640ff4c42af325ba43a2f099a
   CocoaHTTPServer: 217df4cba4e48803db2480f97b805aaad2230dd1
