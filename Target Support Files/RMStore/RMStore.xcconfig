@@ -1,0 +1,3 @@
+RMSTORE_HEADER_SEARCH_PATHS = ${PODS_ROOT}/RMStore/RMStore/Optional/openssl-1.0.1e/include/**
+RMSTORE_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/RMStore/RMStore/Optional/openssl-1.0.1e/lib" "$(PODS_ROOT)/RMStore/RMStore/Optional/openssl-1.0.1e/lib"
+RMSTORE_OTHER_LDFLAGS = -l"crypto" -l"ssl" -framework "Security" -framework "StoreKit"

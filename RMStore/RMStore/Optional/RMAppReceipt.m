@@ -102,8 +102,6 @@ NSString* RMASN1ReadIA5SString(const uint8_t **pp, long omax)
 
 @implementation RMAppReceipt
 
-@synthesize hash = _hash;
-
 - (id)initWithASN1Data:(NSData*)asn1Data
 {
     if (self = [super init])
@@ -125,7 +123,7 @@ NSString* RMASN1ReadIA5SString(const uint8_t **pp, long omax)
                     _opaqueValue = data;
                     break;
                 case RMAppReceiptASN1TypeHash:
-                    _hash = data;
+                    _receiptHash = data;
                     break;
                 case RMAppReceiptASN1TypeInAppPurchaseReceipt:
                 {
@@ -191,7 +189,7 @@ NSString* RMASN1ReadIA5SString(const uint8_t **pp, long omax)
     NSMutableData *expectedHash = [NSMutableData dataWithLength:SHA_DIGEST_LENGTH];
     SHA1(data.bytes, data.length, expectedHash.mutableBytes);
     
-    return [expectedHash isEqualToData:self.hash];
+    return [expectedHash isEqualToData:self.receiptHash];
 }
 
 + (RMAppReceipt*)bundleReceipt

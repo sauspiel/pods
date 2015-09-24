@@ -1,0 +1,1 @@
+PODS_PLAYBACKCONTROL_REACTIVECOCOA_OTHER_LDFLAGS = -framework "AppKit" -framework "Foundation"

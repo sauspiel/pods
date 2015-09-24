@@ -1,0 +1,6 @@
+framework module Pods_AIServer {
+  umbrella header "Pods-AIServer-umbrella.h"
+
+  export *
+  module * { export * }
+}

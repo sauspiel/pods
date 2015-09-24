@@ -1,0 +1,6 @@
+framework module Pods_AIServerTests {
+  umbrella header "Pods-AIServerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

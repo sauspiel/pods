@@ -1,6 +1,0 @@
-#include "Pods-RMStore.xcconfig"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/RMStore" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/Appirater" "${PODS_ROOT}/Headers/Public/GHUnitIOS" "${PODS_ROOT}/Headers/Public/HockeySDK" "${PODS_ROOT}/Headers/Public/NSLogger" "${PODS_ROOT}/Headers/Public/PureLayout" "${PODS_ROOT}/Headers/Public/RMStore" "${PODS_ROOT}/Headers/Public/Reachability" "${PODS_ROOT}/Headers/Public/ReactiveCocoa" "${PODS_ROOT}/Headers/Public/ReactiveCocoa/ReactiveCocoa" "${PODS_ROOT}/Headers/Public/SSKeychain" "${PODS_ROOT}/Headers/Public/SocketRocket" "${PODS_ROOT}/Headers/Public/SocketShuttle" ${PODS_RMSTORE_HEADER_SEARCH_PATHS}
-LIBRARY_SEARCH_PATHS = ${PODS_RMSTORE_LIBRARY_SEARCH_PATHS}
-OTHER_LDFLAGS = ${PODS_RMSTORE_OTHER_LDFLAGS} -ObjC
-PODS_ROOT = ${SRCROOT}
