@@ -1,6 +1,0 @@
-framework module SocketShuttle {
-  umbrella header "SocketShuttle-umbrella.h"
-
-  export *
-  module * { export * }
-}

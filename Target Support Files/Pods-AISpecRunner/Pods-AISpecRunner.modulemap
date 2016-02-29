@@ -1,6 +1,0 @@
-framework module Pods_AISpecRunner {
-  umbrella header "Pods-AISpecRunner-umbrella.h"
-
-  export *
-  module * { export * }
-}

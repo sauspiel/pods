@@ -1,23 +1,23 @@
 PODS:
-  - AFNetworking (2.6.0):
-    - AFNetworking/NSURLConnection (= 2.6.0)
-    - AFNetworking/NSURLSession (= 2.6.0)
-    - AFNetworking/Reachability (= 2.6.0)
-    - AFNetworking/Security (= 2.6.0)
-    - AFNetworking/Serialization (= 2.6.0)
-    - AFNetworking/UIKit (= 2.6.0)
-  - AFNetworking/NSURLConnection (2.6.0):
+  - AFNetworking (2.3.1):
+    - AFNetworking/NSURLConnection (= 2.3.1)
+    - AFNetworking/NSURLSession (= 2.3.1)
+    - AFNetworking/Reachability (= 2.3.1)
+    - AFNetworking/Security (= 2.3.1)
+    - AFNetworking/Serialization (= 2.3.1)
+    - AFNetworking/UIKit (= 2.3.1)
+  - AFNetworking/NSURLConnection (2.3.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.6.0):
+  - AFNetworking/NSURLSession (2.3.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.6.0)
-  - AFNetworking/Security (2.6.0)
-  - AFNetworking/Serialization (2.6.0)
-  - AFNetworking/UIKit (2.6.0):
+  - AFNetworking/Reachability (2.3.1)
+  - AFNetworking/Security (2.3.1)
+  - AFNetworking/Serialization (2.3.1)
+  - AFNetworking/UIKit (2.3.1):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - Appirater (0.0.4)
@@ -29,21 +29,19 @@ PODS:
   - CocoaLumberjack (1.6.2)
   - CorePlot (1.4)
   - GHUnitIOS (0.5.6)
+  - HockeySDK (3.5.7)
   - NSLogger (1.1)
   - PureLayout (1.1.0)
   - Reachability (3.1.1)
-  - ReactiveCocoa (4.0.2-alpha-1):
-    - ReactiveCocoa/UI (= 4.0.2-alpha-1)
-    - Result (~> 0.6-beta.1)
-  - ReactiveCocoa/Core (4.0.2-alpha-1):
+  - ReactiveCocoa (2.0):
+    - ReactiveCocoa/Core (= 2.0)
+    - ReactiveCocoa/no-arc (= 2.0)
+    - ReactiveCocoa/RACExtensions (= 2.0)
+  - ReactiveCocoa/Core (2.0):
     - ReactiveCocoa/no-arc
-    - Result (~> 0.6-beta.1)
-  - ReactiveCocoa/no-arc (4.0.2-alpha-1):
-    - Result (~> 0.6-beta.1)
-  - ReactiveCocoa/UI (4.0.2-alpha-1):
+  - ReactiveCocoa/no-arc (2.0)
+  - ReactiveCocoa/RACExtensions (2.0):
     - ReactiveCocoa/Core
-    - Result (~> 0.6-beta.1)
-  - Result (0.6-beta.1)
   - RMStore (0.4.2):
     - RMStore/AppReceiptVerificator (= 0.4.2)
     - RMStore/Core (= 0.4.2)
@@ -68,22 +66,23 @@ PODS:
   - SSKeychain (1.2.1)
 
 DEPENDENCIES:
-  - AFNetworking (~> 2.6.0)
+  - AFNetworking (~> 2.3.0)
   - Appirater (~> 0.0.2)
   - CDEvents
   - CocoaHTTPServer
   - CocoaLumberjack
   - CorePlot
   - GHUnitIOS
+  - HockeySDK
   - NSLogger
   - PureLayout
-  - ReactiveCocoa (~> 4.0-alpha.1)
+  - ReactiveCocoa
   - RMStore (= 0.4.2)
   - SocketShuttle
   - SSKeychain
 
 SPEC CHECKSUMS:
-  AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
+  AFNetworking: 05b9f6e3aa5ac45bc383b4bb108ef338080a26c7
   Appirater: 4de5387d501d002549042bbbc7430dbf6b97e8a6
   CDEvents: 3242b39301bbe7ef98cf5debc8b75d7b44648cd2
   CocoaAsyncSocket: 94c582a5bef4bb0f51b6ebf3e1b561d9091a68ba
@@ -91,14 +90,14 @@ SPEC CHECKSUMS:
   CocoaLumberjack: 38fa640b1467deaf665b3f7b3b08f837b55c9660
   CorePlot: 273f96c7ae4b7553ee006a0177a67dcf31389f65
   GHUnitIOS: 1d552e236fac5de8a579c5d5dd3cd7503ceec8c1
+  HockeySDK: 9af986df24fbb034ca7578d7a1cd7711bfb943d5
   NSLogger: a2603139634c9ae2ca9442f86185daad9df86b9b
   PureLayout: 461724f6da2da366709e5fe6e6006f6039b7c2dd
   Reachability: dd9aa4fb6667b9f787690a74f53cb7634ce99893
-  ReactiveCocoa: 652cf90e5de65708e7e2111f77405756da21aabe
-  Result: af24e3e57ab81005ec4221a53fd36dc1e7a52869
+  ReactiveCocoa: c5347d7b1c348d22a85800e14e89da84c5254cfb
   RMStore: 3c8e855bae02bc44dd8b0f203682769479abb327
   SocketRocket: 7284ab9370a06c99aba92b2fe3a32aedd0f9a6fa
   SocketShuttle: f6edc4337bf218945d9d7f34dea885b40eb86d6e
   SSKeychain: 4c3206728530be0d33854fc608f75af90e637d71
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0

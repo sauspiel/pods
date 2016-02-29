@@ -1,6 +1,0 @@
-framework module GHUnitIOS {
-  umbrella header "GHUnitIOS-umbrella.h"
-
-  export *
-  module * { export * }
-}
